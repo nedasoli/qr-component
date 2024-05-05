@@ -20,14 +20,15 @@ body{
 }
 
 .card{
-    width: 320px;
+    width: 300px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
-    padding: 20px;
+    padding: 16px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
+    text-align: center;
 }
 
 .card .content {
@@ -35,7 +36,7 @@ body{
     margin: auto;
 }
 
-.card h2 {
+.card p:first-child {
     font-size: 22px;
     font-weight: 700px;
     color: hsl(218, 44%, 22%);
@@ -43,13 +44,15 @@ body{
 }
 
 
-.card p{
+.card p:last-child {
     font-weight: 400;
     text-align: center;
     color: hsl(220, 15%, 55%);
     padding: 0px 12px;
 }
 .card img{
-    width: 100%;
+    width: 288px;
+    height: 288px;
     border-radius: 10px;
+    margin: 0px auto;
 }
