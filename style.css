@@ -4,9 +4,24 @@ body{
     font-family: Outfit;
     font-size: 15px;
 }
+
+
+@media only screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+}
+
 .card{
-    width: 375px;
-    border-radius: 25px;
+    width: 320px;
+    border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
     position: absolute;
@@ -14,15 +29,27 @@ body{
     transform: translate(-50%, -50%);
     left: 50%;
 }
-.card p{
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
+
+.card .content {
+    width: 288px;
+    margin: auto;
 }
-.card p:last-child{
+
+.card h2 {
+    font-size: 22px;
+    font-weight: 700px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+
+
+.card p{
     font-weight: 400;
+    text-align: center;
     color: hsl(220, 15%, 55%);
+    padding: 0px 12px;
 }
 .card img{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 10px;
 }
