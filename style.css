@@ -38,7 +38,7 @@ body{
 
 .card p:first-child {
     font-size: 22px;
-    font-weight: 700px;
+    font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
 }
